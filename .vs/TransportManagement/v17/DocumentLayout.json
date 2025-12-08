@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkProject\\TransportManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\commands\\createdriver\\createdrivercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\commands\\createdriver\\createdrivercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\commands\\createdriver\\createdrivercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\commands\\createdriver\\createdrivercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\externalservices\\query\\getvehiclelocationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\externalservices\\query\\getvehiclelocationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\wrappers\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\wrappers\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\dtos\\vehicles\\vehiclelocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\dtos\\vehicles\\vehiclelocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\exceptions\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\exceptions\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:45:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateDriverCommand.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommand.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommand.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommand.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:44:29.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateDriverCommandHandler.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommandHandler.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommandHandler.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommandHandler.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Commands\\CreateDriver\\CreateDriverCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:44:19.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllDriverQuery.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:44:10.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllDriverQueryHandler.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:43:54.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VehicleLocationDto.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Vehicles\\VehicleLocationDto.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\DTOs\\Vehicles\\VehicleLocationDto.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Vehicles\\VehicleLocationDto.cs",
+              "RelativeToolTip": "TransportManagement.Application\\DTOs\\Vehicles\\VehicleLocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:30:06.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetVehicleLocationQuery.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\ExternalServices\\Query\\GetVehicleLocationQuery.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\ExternalServices\\Query\\GetVehicleLocationQuery.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\ExternalServices\\Query\\GetVehicleLocationQuery.cs",
+              "RelativeToolTip": "TransportManagement.Application\\ExternalServices\\Query\\GetVehicleLocationQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:29:32.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Wrappers\\Result.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Wrappers\\Result.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Wrappers\\Result.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Wrappers\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:14:38.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:12:49.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:03:27.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusinessRuleException.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\BusinessRuleException.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Exceptions\\BusinessRuleException.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\BusinessRuleException.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Exceptions\\BusinessRuleException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:03:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:02:46.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

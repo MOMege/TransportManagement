@@ -1,0 +1,14 @@
+D:\WorkProject\TransportManagement\TransportManagement.Domain\bin\Debug\net8.0\TransportManagement.Domain.deps.json
+D:\WorkProject\TransportManagement\TransportManagement.Domain\bin\Debug\net8.0\TransportManagement.Domain.runtimeconfig.json
+D:\WorkProject\TransportManagement\TransportManagement.Domain\bin\Debug\net8.0\TransportManagement.Domain.dll
+D:\WorkProject\TransportManagement\TransportManagement.Domain\bin\Debug\net8.0\TransportManagement.Domain.pdb
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.csproj.AssemblyReference.cache
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.AssemblyInfoInputs.cache
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.AssemblyInfo.cs
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.csproj.CoreCompileInputs.cache
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.dll
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\refint\TransportManagement.Domain.dll
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.pdb
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.genruntimeconfig.cache
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\ref\TransportManagement.Domain.dll
