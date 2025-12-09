@@ -1,40 +1,33 @@
 ﻿using FluentValidation;
 using MediatR;
+using Microsoft.Extensions.Logging;
 
 namespace TransportManagement.Application.Common.Behaviors
 {
-    public class ValidationBehavior<TRequest, TResponse>
-        : IPipelineBehavior<TRequest, TResponse>
-    {
-        private readonly IEnumerable<IValidator<TRequest>> _validators;
-
-        public ValidationBehavior(IEnumerable<IValidator<TRequest>> validators)
+    public class ValidationBehavior<TRequest,TResponse>:IPipelineBehavior<TRequest,TResponse>
         {
-            _validators = validators;
+
+        private readonly ILogger<ValidationBehavior<TRequest, TResponse>> _logger;
+        public ValidationBehavior(ILogger<ValidationBehavior<TRequest, TResponse>> logger) { 
+
+        _logger = logger;
         }
 
-        public async Task<TResponse> Handle(
-    TRequest request,
-    RequestHandlerDelegate<TResponse> next,
-    CancellationToken cancellationToken)
+        public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
-            if (_validators.Any())
-            {
-                var context = new ValidationContext<TRequest>(request);
-                var results = await Task.WhenAll(
-                    _validators.Select(v => v.ValidateAsync(context, cancellationToken))
-                );
+            var requestName = typeof(TRequest).Name;
+            _logger.LogInformation("➡ Handling {RequestName} with Data: {@Request}",
+                                  requestName, request);
 
-                var failures = results
-                    .SelectMany(r => r.Errors)
-                    .Where(f => f != null)
-                    .ToList();
+            var timer = System.Diagnostics.Stopwatch.StartNew();
+            var response = await next();
+            timer.Stop();
 
-                if (failures.Any())
-                    throw new ValidationException(failures);
-            }
+            _logger.LogInformation("⬅ Handled {RequestName} in {Elapsed}ms | Response: {@Response}",
+                                  requestName, timer.ElapsedMilliseconds, response);
+            return response;
 
-            return await next();
         }
-    } 
+
     }
+}

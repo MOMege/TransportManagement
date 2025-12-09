@@ -14,6 +14,7 @@ namespace TransportManagement.Application.Interfaces
         ITripRepository Trips { get; }
         IRepository<Invoice> Invoices { get; }
         IRepository<Driver> Drivers { get; }
+        IRepository<AuditLog> AuditLogs {  get; }
         Task<int> SaveChangesAsync();
     }
 }

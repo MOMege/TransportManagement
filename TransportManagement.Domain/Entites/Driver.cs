@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Update.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,9 @@ namespace TransportManagement.Domain.Entites
     {
         //property
     
-        public string FullName { get; protected set; } = default!;
-        public string PhoneNumber {  get; protected set; }=default!;
-        public bool IsActive { get; protected set; } = true;
+        public string FullName { get; private set; } = default!;
+        public string PhoneNumber {  get; private set; }=default!;
+        public bool IsActive { get; private set; } = true;
         //Ef core 
         private Driver()
             { }
@@ -34,6 +35,16 @@ namespace TransportManagement.Domain.Entites
         public void Deactivate()=> IsActive = false;
         public void Activate()=> IsActive= true;
 
+        public void  Update(string fullName , string phoneNUmber, bool isactive)
+        {
+            FullName = fullName;
+            PhoneNumber = phoneNUmber;
+            IsActive = isactive;
+
+        }
+         
+        public void ToggleActivation()
+        { IsActive = !IsActive; }
         //navegations
 
         public ICollection<Trip> trips { get; private set; } =new List<Trip>();

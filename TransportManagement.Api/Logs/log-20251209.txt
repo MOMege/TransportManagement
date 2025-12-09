@@ -1,0 +1,314 @@
+2025-12-09 03:36:43 | INF | RequestId=40000012-0006-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-09 03:36:43 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-09 03:36:43 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-09 03:36:43 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-09 03:36:43 | INF | RequestId=40000012-0006-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 469.2071ms
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002c-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002c-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 8.1925ms
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002e-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002e-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.3117ms
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002e-0005-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-09 03:36:44 | INF | RequestId=4000002e-0005-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.431ms
+------------------------------------------------------------------------
+2025-12-09 03:37:04 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Driver/all - null null
+------------------------------------------------------------------------
+2025-12-09 03:37:04 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:37:04 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:37:04 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Route matched with {action = "GetAllBYMediatr", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBYMediatr() on controller TransportManagement.Api.Controllers.DriverController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:37:04 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | ➡ Handling GetAllDriverQuery with Data: {"$type":"GetAllDriverQuery"}
+------------------------------------------------------------------------
+2025-12-09 03:37:08 | WRN | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | The property 'AuditLog.NewValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:37:08 | WRN | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | The property 'AuditLog.OldValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[CreatedAt], [d].[FullName], [d].[IsActive], [d].[PhoneNumber], [d].[UpdatedAt]
+FROM [Drivers] AS [d]
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | ⬅ Handled GetAllDriverQuery in 6661ms | Response: {"Data":[{"Id":"22222222-2222-2222-2222-222222222222","FullName":"ali","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"},{"Id":"22222222-2222-2222-2222-222222222223","FullName":"fouad","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"}],"Succeeded":true,"Message":"All Drivers","Errors":null,"StatusCode":200,"$type":"Result`1"}
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | 🔥 File Logger Test - Logging from Controller!
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'TransportManagement.Application.Wrappers.Result`1[[System.Collections.Generic.IEnumerable`1[[TransportManagement.Application.DTOs.Driveres.DriverDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api) in 6817.5334ms
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:37:11 | INF | RequestId=4000000f-0003-fc00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Driver/all - 200 null application/json; charset=utf-8 6916.7207ms
+------------------------------------------------------------------------
+2025-12-09 03:37:43 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 PUT https://localhost:44349/api/Driver/22222222-2222-2222-2222-222222222222 - application/json 81
+------------------------------------------------------------------------
+2025-12-09 03:37:43 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:37:43 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.DriverController.Update (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:37:43 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Route matched with {action = "Update", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TransportManagement.Application.Wrappers.Result]] Update(System.Guid, TransportManagement.Application.DTOs.Driveres.UpdateDriverDto) on controller TransportManagement.Api.Controllers.DriverController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:37:43 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | ➡ Handling UpdateDriverCommand with Data: {"Id":"22222222-2222-2222-2222-222222222222","Dto":{"FullName":"Mohamed","PhoneNumber":"+966581129013","IsActive":true,"$type":"UpdateDriverDto"},"$type":"UpdateDriverCommand"}
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executed DbCommand (159ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[CreatedAt], [d].[FullName], [d].[IsActive], [d].[PhoneNumber], [d].[UpdatedAt]
+FROM [Drivers] AS [d]
+WHERE [d].[Id] = @__get_Item_0
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 20), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Guid), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 100), @p12='?' (DbType = Guid), @p10='?' (Size = 100), @p11='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AuditLogs] ([Id], [ActionDate], [ActionType], [CreatedAt], [NewValues], [OldValues], [RecordId], [TableName], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+UPDATE [Drivers] SET [FullName] = @p10, [PhoneNumber] = @p11
+OUTPUT 1
+WHERE [Id] = @p12;
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | ⬅ Handled UpdateDriverCommand in 657ms | Response: {"Succeeded":true,"Message":"Driver updated successfully","Errors":null,"StatusCode":200,"$type":"Result"}
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executing ObjectResult, writing value of type 'TransportManagement.Application.Wrappers.Result'.
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.DriverController.Update (TransportManagement.Api) in 718.0852ms
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.DriverController.Update (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:37:44 | INF | RequestId=40000030-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 PUT https://localhost:44349/api/Driver/22222222-2222-2222-2222-222222222222 - 200 null application/json; charset=utf-8 735.9406ms
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 POST https://localhost:44349/api/Vehicles - application/json 105
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.API.Controllers.VehiclesController.Create (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Route matched with {action = "Create", controller = "Vehicles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(TransportManagement.Application.DTOs.Vehicles.CreateVehicleDto) on controller TransportManagement.API.Controllers.VehiclesController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Executed DbCommand (28ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 20), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Guid), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 100), @p10='?' (DbType = Guid), @p11='?' (DbType = DateTime2), @p12='?' (DbType = Int32), @p13='?' (DbType = Boolean), @p14='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p15='?' (Size = 20), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AuditLogs] ([Id], [ActionDate], [ActionType], [CreatedAt], [NewValues], [OldValues], [RecordId], [TableName], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+INSERT INTO [Vehicles] ([Id], [CreatedAt], [DoorNumber], [IsActive], [MaxLoadKg], [PlateNumber], [Type], [UpdatedAt])
+VALUES (@p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Executing CreatedAtActionResult, writing value of type 'TransportManagement.Application.DTOs.Vehicles.VehicleDto'.
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Executed action TransportManagement.API.Controllers.VehiclesController.Create (TransportManagement.Api) in 253.6789ms
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.API.Controllers.VehiclesController.Create (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:40:34 | INF | RequestId=40000032-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 POST https://localhost:44349/api/Vehicles - 201 null application/json; charset=utf-8 260.9722ms
+------------------------------------------------------------------------
+2025-12-09 03:45:12 | INF | RequestId=40000032-0005-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=40000019-0002-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=40000032-0005-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 466.3204ms
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=40000019-0002-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 5.8261ms
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=40000034-0005-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=40000034-0005-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.8926ms
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=4000002b-0004-ff00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-09 03:45:13 | INF | RequestId=4000002b-0004-ff00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.0824ms
+------------------------------------------------------------------------
+2025-12-09 03:46:31 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - null null
+------------------------------------------------------------------------
+2025-12-09 03:46:31 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:46:31 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:46:31 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Route matched with {action = "GetHistory", controller = "AuditLogs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.String, System.Guid) on controller TransportManagement.Api.Controllers.AuditLogsController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:46:31 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | ➡ Handling GetHistoryByRecordIdQuery with Data: {"RecordId":"ec441b15-f383-453e-a0ee-017c52b074b0","TableName":"Vehicles","$type":"GetHistoryByRecordIdQuery"}
+------------------------------------------------------------------------
+2025-12-09 03:46:34 | WRN | RequestId=40000014-0006-fb00-b63f-84710c7967bb | The property 'AuditLog.NewValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:46:34 | WRN | RequestId=40000014-0006-fb00-b63f-84710c7967bb | The property 'AuditLog.OldValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Executed DbCommand (976ms) [Parameters=[@__request_RecordId_0='?' (DbType = Guid), @__request_TableName_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ActionDate], [a].[ActionType], [a].[CreatedAt], [a].[NewValues], [a].[OldValues], [a].[RecordId], [a].[TableName], [a].[UpdatedAt], [a].[UserName]
+FROM [AuditLogs] AS [a]
+WHERE [a].[RecordId] = @__request_RecordId_0 AND [a].[TableName] = @__request_TableName_1
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | ⬅ Handled GetHistoryByRecordIdQuery in 7231ms | Response: []
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.AudiltLog.AuditLogDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api) in 7371.61ms
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:46:39 | INF | RequestId=40000014-0006-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - 200 null application/json; charset=utf-8 7452.5942ms
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId=40000016-0006-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId=40000016-0006-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 437.481ms
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId=40000056-0000-fc00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-09 03:49:56 | INF | RequestId=4000003e-0001-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-09 03:49:57 | INF | RequestId=40000056-0000-fc00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 8.1118ms
+------------------------------------------------------------------------
+2025-12-09 03:49:57 | INF | RequestId=4000003e-0001-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.7636ms
+------------------------------------------------------------------------
+2025-12-09 03:49:57 | INF | RequestId=40000027-0005-fd00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-09 03:49:57 | INF | RequestId=40000027-0005-fd00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.121ms
+------------------------------------------------------------------------
+2025-12-09 03:50:21 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - null null
+------------------------------------------------------------------------
+2025-12-09 03:50:21 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:50:21 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:50:21 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Route matched with {action = "GetHistory", controller = "AuditLogs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.String, System.Guid) on controller TransportManagement.Api.Controllers.AuditLogsController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:50:21 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | ➡ Handling GetHistoryByRecordIdQuery with Data: {"RecordId":"ec441b15-f383-453e-a0ee-017c52b074b0","TableName":"Vehicles","$type":"GetHistoryByRecordIdQuery"}
+------------------------------------------------------------------------
+2025-12-09 03:50:22 | WRN | RequestId=40000040-0001-fe00-b63f-84710c7967bb | The property 'AuditLog.NewValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:50:22 | WRN | RequestId=40000040-0001-fe00-b63f-84710c7967bb | The property 'AuditLog.OldValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Executed DbCommand (64ms) [Parameters=[@__request_RecordId_0='?' (DbType = Guid), @__request_TableName_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ActionDate], [a].[ActionType], [a].[CreatedAt], [a].[NewValues], [a].[OldValues], [a].[RecordId], [a].[TableName], [a].[UpdatedAt], [a].[UserName]
+FROM [AuditLogs] AS [a]
+WHERE [a].[RecordId] = @__request_RecordId_0 AND [a].[TableName] = @__request_TableName_1
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | ⬅ Handled GetHistoryByRecordIdQuery in 2703ms | Response: []
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.AudiltLog.AuditLogDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api) in 2747.7848ms
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:50:24 | INF | RequestId=40000040-0001-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - 200 null application/json; charset=utf-8 2828.035ms
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000004b-0006-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=40000037-0005-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000002e-0004-ff00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000004b-0006-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 351.3541ms
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=40000037-0005-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 8.9632ms
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000002e-0004-ff00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7015ms
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000001f-0002-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-09 03:52:24 | INF | RequestId=4000001f-0002-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2966ms
+------------------------------------------------------------------------
+2025-12-09 03:52:48 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - null null
+------------------------------------------------------------------------
+2025-12-09 03:52:48 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:52:48 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:52:49 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Route matched with {action = "GetHistory", controller = "AuditLogs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.String, System.Guid) on controller TransportManagement.Api.Controllers.AuditLogsController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:52:49 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | ➡ Handling GetHistoryByRecordIdQuery with Data: {"RecordId":"ec441b15-f383-453e-a0ee-017c52b074b0","TableName":"Vehicles","$type":"GetHistoryByRecordIdQuery"}
+------------------------------------------------------------------------
+2025-12-09 03:52:50 | WRN | RequestId=40000030-0004-ff00-b63f-84710c7967bb | The property 'AuditLog.NewValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:52:50 | WRN | RequestId=40000030-0004-ff00-b63f-84710c7967bb | The property 'AuditLog.OldValues' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Executed DbCommand (69ms) [Parameters=[@__request_RecordId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ActionDate], [a].[ActionType], [a].[CreatedAt], [a].[NewValues], [a].[OldValues], [a].[RecordId], [a].[TableName], [a].[UpdatedAt], [a].[UserName]
+FROM [AuditLogs] AS [a]
+WHERE [a].[RecordId] = @__request_RecordId_0
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | ⬅ Handled GetHistoryByRecordIdQuery in 2548ms | Response: []
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.AudiltLog.AuditLogDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api) in 2662.8561ms
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:52:51 | INF | RequestId=40000030-0004-ff00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/history/Vehicles/ec441b15-f383-453e-a0ee-017c52b074b0 - 200 null application/json; charset=utf-8 2744.5535ms
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/history/Vehicles/5357d4dd-9395-4f98-b6c6-28a79edb37d4 - null null
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Route matched with {action = "GetHistory", controller = "AuditLogs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.String, System.Guid) on controller TransportManagement.Api.Controllers.AuditLogsController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | ➡ Handling GetHistoryByRecordIdQuery with Data: {"RecordId":"5357d4dd-9395-4f98-b6c6-28a79edb37d4","TableName":"Vehicles","$type":"GetHistoryByRecordIdQuery"}
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Executed DbCommand (71ms) [Parameters=[@__request_RecordId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ActionDate], [a].[ActionType], [a].[CreatedAt], [a].[NewValues], [a].[OldValues], [a].[RecordId], [a].[TableName], [a].[UpdatedAt], [a].[UserName]
+FROM [AuditLogs] AS [a]
+WHERE [a].[RecordId] = @__request_RecordId_0
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | ⬅ Handled GetHistoryByRecordIdQuery in 122ms | Response: []
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.AudiltLog.AuditLogDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api) in 133.2867ms
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.AuditLogsController.GetHistory (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000037-0001-ff00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/history/Vehicles/5357d4dd-9395-4f98-b6c6-28a79edb37d4 - 200 null application/json; charset=utf-8 176.2582ms
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000036-0004-fc00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/favicon.ico - null null
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000036-0004-fc00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/favicon.ico - 404 null null 8.2895ms
+------------------------------------------------------------------------
+2025-12-09 03:54:31 | INF | RequestId=40000036-0004-fc00-b63f-84710c7967bb | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44349/favicon.ico, Response status code: 404
+------------------------------------------------------------------------
+2025-12-09 03:54:36 | INF | RequestId=40000029-0005-fd00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-09 03:54:36 | INF | RequestId=40000029-0005-fd00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 2.0773ms
+------------------------------------------------------------------------

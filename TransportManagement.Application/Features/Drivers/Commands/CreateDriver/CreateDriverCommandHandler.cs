@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TransportManagement.Application.Comman.Exceptions;
 using TransportManagement.Application.Interfaces;
 using TransportManagement.Application.Wrappers;
 using TransportManagement.Domain.Entites;
@@ -24,6 +25,10 @@ namespace TransportManagement.Application.Features.Drivers.Commands.CreateDriver
 
         public async Task<Result<Guid>> Handle(CreateDriverCommand command, CancellationToken cancellationToken)
         {
+            var exist = await _unitOfWork.Drivers.FindAsync(x=> x.PhoneNumber==command.dto.PhoneNumber);
+            if (exist.Any()) 
+            throw new BusinessRuleException("Driver Phone NUmber Is Exist");
+
             var entity = _mapper.Map<Driver>(command.dto);
              await _unitOfWork.Drivers.AddSync(entity);
             await _unitOfWork.SaveChangesAsync();

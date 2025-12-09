@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TransportManagement.Domain.Entites;
 using TransportManagement.Domain.Enums;
+using TransportManagement.Infrastructure.Persistence.Configuration;
 
 namespace TransportManagement.Infrastructure.Persistence
 {
@@ -21,11 +24,26 @@ namespace TransportManagement.Infrastructure.Persistence
         public DbSet<Vehicle> Vehicles => Set<Vehicle>();
         public DbSet<Invoice> Invoices => Set<Invoice>();
         public DbSet<Trip> Trips => Set<Trip>();
+        public DbSet<AuditLog> AuditLogs=> Set<AuditLog>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TransportDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
+               var dictionaryConverter = new ValueConverter<Dictionary<string, object>?, string?>(
+               v => v == null ? null : JsonConvert.SerializeObject(v),
+               v => v == null ? null : JsonConvert.DeserializeObject<Dictionary<string, object>>(v)
+               );
+
+            modelBuilder.Entity<AuditLog>()
+                .Property(a => a.OldValues)
+                .HasConversion(dictionaryConverter);
+
+            modelBuilder.Entity<AuditLog>()
+                .Property(a => a.NewValues)
+                .HasConversion(dictionaryConverter);
+            modelBuilder.ApplyConfiguration(new AuditLogConfiguration());
             modelBuilder.Entity<Vehicle>().HasKey(v =>v.Id);
             modelBuilder.Entity<Driver>().HasKey(d => d.Id);
             modelBuilder.Entity<Trip>().HasKey(t => t.Id);

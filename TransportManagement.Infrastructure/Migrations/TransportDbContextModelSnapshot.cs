@@ -22,6 +22,49 @@ namespace TransportManagement.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TransportManagement.Domain.Entites.AuditLog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("ActionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ActionType")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NewValues")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OldValues")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("RecordId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("TableName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AuditLogs", (string)null);
+                });
+
             modelBuilder.Entity("TransportManagement.Domain.Entites.Driver", b =>
                 {
                     b.Property<Guid>("Id")
@@ -191,7 +234,7 @@ namespace TransportManagement.Infrastructure.Migrations
                         new
                         {
                             Id = new Guid("11111111-1111-1111-1111-111111111111"),
-                            CreatedAt = new DateTime(2025, 12, 6, 12, 22, 58, 350, DateTimeKind.Utc).AddTicks(781),
+                            CreatedAt = new DateTime(2025, 12, 9, 0, 34, 22, 998, DateTimeKind.Utc).AddTicks(274),
                             DoorNumber = 2,
                             IsActive = true,
                             MaxLoadKg = 2000m,
@@ -201,7 +244,7 @@ namespace TransportManagement.Infrastructure.Migrations
                         new
                         {
                             Id = new Guid("22222222-2222-2222-2222-222222222222"),
-                            CreatedAt = new DateTime(2025, 12, 6, 12, 22, 58, 350, DateTimeKind.Utc).AddTicks(784),
+                            CreatedAt = new DateTime(2025, 12, 9, 0, 34, 22, 998, DateTimeKind.Utc).AddTicks(276),
                             DoorNumber = 4,
                             IsActive = true,
                             MaxLoadKg = 800m,

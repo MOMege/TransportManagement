@@ -15,12 +15,6 @@
     <ProjectReference Include="..\TransportManagement.Domain\TransportManagement.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Drivers\Commands\DeleteDriver\" />
-    <Folder Include="Features\Drivers\Commands\UpdateDriver\" />
-    <Folder Include="Features\Drivers\Queires\GetDriver\" />
-  </ItemGroup>
-
   <PropertyGroup>
     
     <TargetFramework>net8.0</TargetFramework>

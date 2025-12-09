@@ -1,0 +1,170 @@
+2025-12-08 22:42:16 | INF | RequestId=40000025-0005-fd00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=4000001f-0007-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=40000025-0005-fd00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 342.6224ms
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=40000021-0007-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=4000001f-0007-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 12.4337ms
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=40000021-0007-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.3394ms
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=40000036-0001-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:17 | INF | RequestId=40000036-0001-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.691ms
+------------------------------------------------------------------------
+2025-12-08 22:42:25 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Driver/all - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:25 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:42:25 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Route matched with {action = "GetAllBYMediatr", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBYMediatr() on controller TransportManagement.Api.Controllers.DriverController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-08 22:42:25 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | ➡ Handling GetAllDriverQuery with Data: {"$type":"GetAllDriverQuery"}
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[CreatedAt], [d].[FullName], [d].[IsActive], [d].[PhoneNumber], [d].[UpdatedAt]
+FROM [Drivers] AS [d]
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | ⬅ Handled GetAllDriverQuery in 2434ms | Response: {"Data":[{"Id":"22222222-2222-2222-2222-222222222222","FullName":"ali","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"},{"Id":"22222222-2222-2222-2222-222222222223","FullName":"fouad","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"}],"Succeeded":true,"Message":"All Drivers","Errors":null,"StatusCode":200,"$type":"Result`1"}
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | 🔥 File Logger Test - Logging from Controller!
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'TransportManagement.Application.Wrappers.Result`1[[System.Collections.Generic.IEnumerable`1[[TransportManagement.Application.DTOs.Driveres.DriverDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api) in 2654.6428ms
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:42:27 | INF | RequestId=40000015-0002-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Driver/all - 200 null application/json; charset=utf-8 2695.9742ms
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Vehicles/all - null null
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Route matched with {action = "GetAllBYMediatr", controller = "Vehicles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBYMediatr() on controller TransportManagement.API.Controllers.VehiclesController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | ➡ Handling GetAllVehiclesQuery with Data: {"$type":"GetAllVehiclesQuery"}
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedAt], [v].[DoorNumber], [v].[IsActive], [v].[MaxLoadKg], [v].[PlateNumber], [v].[Type], [v].[UpdatedAt]
+FROM [Vehicles] AS [v]
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | ⬅ Handled GetAllVehiclesQuery in 68ms | Response: [{"PlateNumber":"MER 789","Type":"Trailer","DoorNumber":7,"MaxLoadKg":2000.00,"IsActive":true,"$type":"VehicleListDto"},{"PlateNumber":"XYZ999","Type":"Van","DoorNumber":4,"MaxLoadKg":800.00,"IsActive":true,"$type":"VehicleListDto"}]
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.Vehicles.VehicleListDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Executed action TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api) in 118.6447ms
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:42:38 | INF | RequestId=40000017-0002-fb00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Vehicles/all - 200 null application/json; charset=utf-8 128.02ms
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000038-0001-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId= | Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId= | Hosting environment: Development
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId= | Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000025-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=4000001a-0007-fc00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000038-0001-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 364.7653ms
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=4000001a-0007-fc00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 7.3663ms
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000025-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.9793ms
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000027-0004-ff00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:36 | INF | RequestId=40000027-0004-ff00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.751ms
+------------------------------------------------------------------------
+2025-12-08 22:46:44 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Driver/all - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:44 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-08 22:46:44 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:46:44 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Route matched with {action = "GetAllBYMediatr", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBYMediatr() on controller TransportManagement.Api.Controllers.DriverController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-08 22:46:44 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | ➡ Handling GetAllDriverQuery with Data: {"$type":"GetAllDriverQuery"}
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[CreatedAt], [d].[FullName], [d].[IsActive], [d].[PhoneNumber], [d].[UpdatedAt]
+FROM [Drivers] AS [d]
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | ⬅ Handled GetAllDriverQuery in 2140ms | Response: {"Data":[{"Id":"22222222-2222-2222-2222-222222222222","FullName":"ali","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"},{"Id":"22222222-2222-2222-2222-222222222223","FullName":"fouad","PhoneNumber":"+966550531060","IsActive":true,"$type":"DriverDto"}],"Succeeded":true,"Message":"All Drivers","Errors":null,"StatusCode":200,"$type":"Result`1"}
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | 🔥 File Logger Test - Logging from Controller!
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'TransportManagement.Application.Wrappers.Result`1[[System.Collections.Generic.IEnumerable`1[[TransportManagement.Application.DTOs.Driveres.DriverDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Executed action TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api) in 2306.0697ms
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.Api.Controllers.DriverController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-08 22:46:46 | INF | RequestId=40000033-0000-fd00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Driver/all - 200 null application/json; charset=utf-8 2367.7346ms
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Vehicles/all - null null
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Route matched with {action = "GetAllBYMediatr", controller = "Vehicles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBYMediatr() on controller TransportManagement.API.Controllers.VehiclesController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | ➡ Handling GetAllVehiclesQuery with Data: {"$type":"GetAllVehiclesQuery"}
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedAt], [v].[DoorNumber], [v].[IsActive], [v].[MaxLoadKg], [v].[PlateNumber], [v].[Type], [v].[UpdatedAt]
+FROM [Vehicles] AS [v]
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | ⬅ Handled GetAllVehiclesQuery in 79ms | Response: [{"PlateNumber":"MER 789","Type":"Trailer","DoorNumber":7,"MaxLoadKg":2000.00,"IsActive":true,"$type":"VehicleListDto"},{"PlateNumber":"XYZ999","Type":"Van","DoorNumber":4,"MaxLoadKg":800.00,"IsActive":true,"$type":"VehicleListDto"}]
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.Vehicles.VehicleListDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Executed action TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api) in 164.4279ms
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAllBYMediatr (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-08 22:46:52 | INF | RequestId=40000027-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Vehicles/all - 200 null application/json; charset=utf-8 175.1119ms
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Request starting HTTP/2 GET https://localhost:44349/api/Vehicles - null null
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId= | =============== REQUEST START ================
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Executing endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAll (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Route matched with {action = "GetAll", controller = "Vehicles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller TransportManagement.API.Controllers.VehiclesController (TransportManagement.Api).
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | ➡ Handling GetAllVehiclesQuery with Data: {"$type":"GetAllVehiclesQuery"}
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedAt], [v].[DoorNumber], [v].[IsActive], [v].[MaxLoadKg], [v].[PlateNumber], [v].[Type], [v].[UpdatedAt]
+FROM [Vehicles] AS [v]
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | ⬅ Handled GetAllVehiclesQuery in 8ms | Response: [{"PlateNumber":"MER 789","Type":"Trailer","DoorNumber":7,"MaxLoadKg":2000.00,"IsActive":true,"$type":"VehicleListDto"},{"PlateNumber":"XYZ999","Type":"Van","DoorNumber":4,"MaxLoadKg":800.00,"IsActive":true,"$type":"VehicleListDto"}]
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TransportManagement.Application.DTOs.Vehicles.VehicleListDto, TransportManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Executed action TransportManagement.API.Controllers.VehiclesController.GetAll (TransportManagement.Api) in 27.5208ms
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Executed endpoint 'TransportManagement.API.Controllers.VehiclesController.GetAll (TransportManagement.Api)'
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId= | =============== REQUEST END ==================
+------------------------------------------------------------------------
+2025-12-08 22:47:01 | INF | RequestId=40000029-0002-fe00-b63f-84710c7967bb | Request finished HTTP/2 GET https://localhost:44349/api/Vehicles - 200 null application/json; charset=utf-8 36.3503ms
+------------------------------------------------------------------------

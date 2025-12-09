@@ -1,0 +1,9 @@
+2025-12-08 20:05:48.753 [Information] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-12-08 20:05:48.862 [Information] Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-12-08 20:05:48.866 [Information] Microsoft.Hosting.Lifetime - Content root path: D:\WorkProject\TransportManagement\TransportManagement.Api
+2025-12-08 20:06:04.797 [Information] TransportManagement.Application.Common.Behaviors.ValidationBehavior - ➡ Handling GetAllDriverQuery with Data: GetAllDriverQuery { }
+2025-12-08 20:06:09.447 [Information] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[CreatedAt], [d].[FullName], [d].[IsActive], [d].[PhoneNumber], [d].[UpdatedAt]
+FROM [Drivers] AS [d]
+2025-12-08 20:06:09.574 [Information] TransportManagement.Application.Common.Behaviors.ValidationBehavior - ⬅ Handled GetAllDriverQuery in 4771ms | Response: TransportManagement.Application.Wrappers.Result`1[System.Collections.Generic.IEnumerable`1[TransportManagement.Application.DTOs.Driveres.DriverDto]]
+2025-12-08 20:06:09.579 [Information] TransportManagement.Api.Controllers.DriverController - 🔥 File Logger Test - Logging from Controller!

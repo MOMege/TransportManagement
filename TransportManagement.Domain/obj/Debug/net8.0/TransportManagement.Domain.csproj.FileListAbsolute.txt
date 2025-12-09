@@ -7,6 +7,7 @@ D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\T
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.AssemblyInfoInputs.cache
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.AssemblyInfo.cs
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.csproj.CoreCompileInputs.cache
+D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.sourcelink.json
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.dll
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\refint\TransportManagement.Domain.dll
 D:\WorkProject\TransportManagement\TransportManagement.Domain\obj\Debug\net8.0\TransportManagement.Domain.pdb

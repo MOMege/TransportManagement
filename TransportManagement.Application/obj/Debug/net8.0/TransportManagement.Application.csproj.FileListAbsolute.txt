@@ -8,6 +8,7 @@ D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\TransportManagement.Application.AssemblyInfoInputs.cache
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\TransportManagement.Application.AssemblyInfo.cs
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\TransportManagement.Application.csproj.CoreCompileInputs.cache
+D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\TransportManagement.Application.sourcelink.json
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\Transpor.C85AC694.Up2Date
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\TransportManagement.Application.dll
 D:\WorkProject\TransportManagement\TransportManagement.Application\obj\Debug\net8.0\refint\TransportManagement.Application.dll

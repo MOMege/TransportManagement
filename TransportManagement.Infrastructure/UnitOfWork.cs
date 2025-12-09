@@ -1,49 +1,96 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System.Security.Claims;
 using TransportManagement.Application.Interfaces;
 using TransportManagement.Domain.Entites;
 using TransportManagement.Infrastructure.Persistence;
 using TransportManagement.Infrastructure.Repositories;
 
-namespace TransportManagement.Infrastructure
+public class UnitOfWork : IUnitOfWork
 {
-    public class UnitOfWork : IUnitOfWork
+    protected readonly TransportDbContext _dbcontext;
+    private readonly IHttpContextAccessor _httpContextAccessor;
+
+    public IVehicleRepository Vehicles { get; }
+    public ITripRepository Trips { get; }
+    public IRepository<AuditLog> AuditLogs { get; }
+    public IRepository<Invoice> Invoices { get; }
+    public IRepository<Driver> Drivers { get; }
+
+    public UnitOfWork(TransportDbContext dbContext, IHttpContextAccessor httpContextAccessor)
     {
-        protected readonly TransportDbContext _dbcontext;
-        public IVehicleRepository  Vehicles { get; }
+        _dbcontext = dbContext;
+        _httpContextAccessor = httpContextAccessor;
 
-        public ITripRepository Trips { get; }
+        Vehicles = new VehicleRepository(_dbcontext); // have special repository
+        Trips = new TripRepository(_dbcontext);
+        Invoices = new Repository<Invoice>(_dbcontext);
+        AuditLogs = new Repository<AuditLog>(_dbcontext);
+        Drivers = new Repository<Driver>(_dbcontext);
+    }
 
-        public IRepository<Invoice> Invoices { get; }
+    public async Task<int> SaveChangesAsync()
+    {
+        // نسجل الـ Audit قبل الحفظ
+        AddAuditLogs();
+        return await _dbcontext.SaveChangesAsync();
+    }
 
-        public IRepository<Driver> Drivers { get; }
+    private void AddAuditLogs()
+    {
+        var userName = _httpContextAccessor.HttpContext?.User?
+                           .FindFirst(ClaimTypes.Name)?.Value
+                       ?? "Anonymous";
 
-      
-        public UnitOfWork(TransportDbContext dbContext)
+        var entries = _dbcontext.ChangeTracker.Entries()
+            .Where(e => e.Entity is not AuditLog &&
+                        e.State != EntityState.Detached &&
+                        e.State != EntityState.Unchanged)
+            .ToList();
+
+        foreach (var entry in entries)
         {
-            _dbcontext = dbContext;
-            Vehicles= new VehicleRepository(_dbcontext); // have sepecial reposatory
-            Trips = new TripRepository(_dbcontext);
-            Invoices = new Repository<Invoice>(_dbcontext);
-            Drivers = new Repository<Driver>(_dbcontext);
+            // نحاول نجيب الـ Id من Current أو Original
+            var idProperty = entry.Property("Id");
+            var recordIdObj = idProperty.CurrentValue ?? idProperty.OriginalValue;
+            var recordId = recordIdObj is Guid g ? g : Guid.Empty;
+
+            var audit = new AuditLog
+            {
+                TableName = entry.Metadata.GetTableName() ?? entry.Metadata.ClrType.Name,
+                RecordId = recordId,
+                ActionType = entry.State.ToString(),  // Added / Modified / Deleted
+                UserName = userName,
+                ActionDate = DateTime.UtcNow,
+            };
+
+            if (entry.State == EntityState.Added)
+            {
+                audit.NewValues = entry.CurrentValues.Properties
+                    .ToDictionary(p => p.Name, p => entry.CurrentValues[p.Name])!;
+            }
+            else if (entry.State == EntityState.Modified)
+            {
+                audit.OldValues = entry.OriginalValues.Properties
+                    .ToDictionary(p => p.Name, p => entry.OriginalValues[p.Name])!;
+
+                audit.NewValues = entry.CurrentValues.Properties
+                    .ToDictionary(p => p.Name, p => entry.CurrentValues[p.Name])!;
+            }
+            else if (entry.State == EntityState.Deleted)
+            {
+                audit.OldValues = entry.OriginalValues.Properties
+                    .ToDictionary(p => p.Name, p => entry.OriginalValues[p.Name])!;
+            }
 
 
+            _dbcontext.AuditLogs.Add(audit); // مش محتاج async هنا
         }
-        public async Task<int> SaveChangesAsync()
-            => await _dbcontext.SaveChangesAsync();
-   
+    }
 
-        public void Dispose()
-        {
-            _dbcontext.Dispose();
-        }
-
-        
-
-
+    public void Dispose()
+    {
+        _dbcontext.Dispose();
     }
 }
