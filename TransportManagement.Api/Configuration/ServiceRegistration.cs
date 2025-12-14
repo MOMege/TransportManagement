@@ -1,12 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using FluentValidation;
-using MediatR;
 using TransportManagement.Application;
 using TransportManagement.Application.Common.Behaviors;
 using TransportManagement.Application.Interfaces;
+using TransportManagement.Application.Interfaces.Authentication;
 using TransportManagement.Application.Mapping;
+using TransportManagement.Application.Services;
 using TransportManagement.Application.Validations.Vehicles;
 using TransportManagement.Infrastructure;
 using TransportManagement.Infrastructure.ExternalService;
@@ -24,12 +26,16 @@ namespace TransportManagement.Api.Configurations
             // DbContext
             services.AddDbContext<TransportDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("Dbconnection")));
+            // Identity Injection 
+            services.AddHttpContextAccessor();
+            services.AddScoped<ICurrentUserService, CurrentUserService>();
 
             // Repositories
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IVehicleRepository, VehicleRepository>();
             services.AddScoped<ITripRepository, TripRepository>();
             services.AddScoped<IGpsTrackingService, WialonGpsAdapter>();
+            services.AddScoped<ITokenService, TokenService>();
             services.AddHttpClient<IGpsTrackingService, WialonGpsAdapter>(client =>
             {
                 client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com");
@@ -49,6 +55,7 @@ namespace TransportManagement.Api.Configurations
 
             // Pipeline
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
 
 
             return services;

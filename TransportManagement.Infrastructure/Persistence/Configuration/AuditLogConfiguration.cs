@@ -37,6 +37,8 @@ namespace TransportManagement.Infrastructure.Persistence.Configuration
 
             builder.Property(x => x.ActionDate)
                    .IsRequired();
+            
+            builder.Property(a => a.ChangedColumns).HasColumnType("nvarchar(max)");
         }
     }
 }

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TransportManagement.Domain;
+
 
 namespace TransportManagement.Domain.Entites
 {
@@ -14,6 +16,9 @@ namespace TransportManagement.Domain.Entites
         public string FullName { get; private set; } = default!;
         public string PhoneNumber {  get; private set; }=default!;
         public bool IsActive { get; private set; } = true;
+       
+
+     
         //Ef core 
         private Driver()
             { }
@@ -21,6 +26,7 @@ namespace TransportManagement.Domain.Entites
         {
             this.FullName = fullName;
             this.PhoneNumber = phoneNUmber;
+            IsActive = true;
            
         }
         public Driver(string fullName, string phoneNUmber,bool isactive)
@@ -45,6 +51,18 @@ namespace TransportManagement.Domain.Entites
          
         public void ToggleActivation()
         { IsActive = !IsActive; }
+
+        //Factory Method For Unit Test
+        public static Driver Create(string fullName, string phoneNumber, bool isActive = true)
+        {
+            return new Driver
+            {
+                Id = Guid.NewGuid(),
+                FullName = fullName,
+                PhoneNumber = phoneNumber,
+                IsActive = isActive
+            };
+        }
         //navegations
 
         public ICollection<Trip> trips { get; private set; } =new List<Trip>();

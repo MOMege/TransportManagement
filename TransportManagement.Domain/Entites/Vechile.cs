@@ -29,6 +29,7 @@ namespace TransportManagement.Domain.Entites
             this.PlateNumber = plateNumber;
             this.Type = vechileType;
             this.MaxLoadKg = maxLoadKg;
+            this.IsActive = true;
         }
         //DDD / Clean Architecture…
        // إحنا عادة بنمنع إنشاء الكيان مباشرة من خارج الدومين، لذلك نخلي الـ constructor العام private أو protected
@@ -54,7 +55,7 @@ namespace TransportManagement.Domain.Entites
             MaxLoadKg = maxLoadKg;
             DoorNumber = doorNumber;
         }
-
-
+        public void Deactived() => IsActive = false;
+        public void Activated() => IsActive = true;
     }
 }

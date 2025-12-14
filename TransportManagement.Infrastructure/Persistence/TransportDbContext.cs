@@ -5,15 +5,20 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using TransportManagement.Domain;
 using TransportManagement.Domain.Entites;
 using TransportManagement.Domain.Enums;
 using TransportManagement.Infrastructure.Persistence.Configuration;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 
 namespace TransportManagement.Infrastructure.Persistence
 {
-    public class TransportDbContext :DbContext
+    public class TransportDbContext :IdentityDbContext<ApplicationUser >
+
     {
         public TransportDbContext( DbContextOptions<TransportDbContext > options
             ) :base(options)
@@ -31,7 +36,9 @@ namespace TransportManagement.Infrastructure.Persistence
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TransportDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
-               var dictionaryConverter = new ValueConverter<Dictionary<string, object>?, string?>(
+
+            /// ده تحويل من  dictionary to string 
+            /*   var dictionaryConverter = new ValueConverter<Dictionary<string, object>?, string?>(
                v => v == null ? null : JsonConvert.SerializeObject(v),
                v => v == null ? null : JsonConvert.DeserializeObject<Dictionary<string, object>>(v)
                );
@@ -42,7 +49,17 @@ namespace TransportManagement.Infrastructure.Persistence
 
             modelBuilder.Entity<AuditLog>()
                 .Property(a => a.NewValues)
-                .HasConversion(dictionaryConverter);
+                .HasConversion(dictionaryConverter);*/
+
+            foreach (var entityType in modelBuilder.Model.GetEntityTypes())
+            {
+                if (typeof(BaseEntity).IsAssignableFrom(entityType.ClrType))
+                {
+                    modelBuilder.Entity(entityType.ClrType)
+                        .HasQueryFilter(GetIsDeletedFilter(entityType.ClrType));
+                }
+            }
+
             modelBuilder.ApplyConfiguration(new AuditLogConfiguration());
             modelBuilder.Entity<Vehicle>().HasKey(v =>v.Id);
             modelBuilder.Entity<Driver>().HasKey(d => d.Id);
@@ -61,7 +78,8 @@ namespace TransportManagement.Infrastructure.Persistence
         DoorNumber = 2,
         MaxLoadKg = 2000m,
         CreatedAt = DateTime.UtcNow,
-        IsActive = true
+        IsActive = true,
+        IsDeleted = false
     },
     new
     {
@@ -71,11 +89,19 @@ namespace TransportManagement.Infrastructure.Persistence
         DoorNumber = 4,
         MaxLoadKg = 800m,
         CreatedAt = DateTime.UtcNow,
-        IsActive = true
+        IsActive = true,
+        IsDeleted = false
     }
-);
+             );
           
 
+        }
+        private static LambdaExpression GetIsDeletedFilter(Type type)
+        {
+            var param = Expression.Parameter(type, "e");
+            var prop = Expression.Property(param, nameof(BaseEntity.IsDeleted));
+            var condition = Expression.Equal(prop, Expression.Constant(false));
+            return Expression.Lambda(condition, param);
         }
 
     }

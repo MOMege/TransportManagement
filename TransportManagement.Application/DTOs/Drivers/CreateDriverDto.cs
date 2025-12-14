@@ -8,7 +8,7 @@ namespace TransportManagement.Application.DTOs.Driveres
 {
     public class CreateDriverDto
     {
-        string Name = default!;
-        string PhoneNumber = default!;
+       public  string Name = default!;
+        public string PhoneNumber = default!;
     }
 }

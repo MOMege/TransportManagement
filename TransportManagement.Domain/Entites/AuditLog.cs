@@ -13,8 +13,9 @@ namespace TransportManagement.Domain.Entites
 
         public string ActionType { get; set; } = default!; // Create, Update, Delete
 
-        public Dictionary<string, object>? OldValues { get; set; }  // JSON
-        public  Dictionary<string, object>? NewValues { get; set; }  // JSON
+        public string? OldValues { get; set; }  // JSON
+        public  string? NewValues { get; set; }  // JSON
+        public string? ChangedColumns { get; set; }
 
         public string? UserName { get; set; }
         public DateTime ActionDate { get; set; }

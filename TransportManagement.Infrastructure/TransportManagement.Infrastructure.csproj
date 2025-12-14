@@ -23,11 +23,17 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TransportManagement.Domain\TransportManagement.Domain.csproj" />
     <ProjectReference Include="..\TransportManagement.Application\TransportManagement.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Export\" />
   </ItemGroup>
 
   <PropertyGroup>

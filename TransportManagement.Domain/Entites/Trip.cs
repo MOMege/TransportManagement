@@ -7,7 +7,7 @@ using TransportManagement.Domain.Enums;
 
 namespace TransportManagement.Domain.Entites
 {
-    public class Trip :BaseEntity ,IAggregateRoot
+    public class Trip :BaseEntity ,IAggregateRoot 
     {
 
         //property

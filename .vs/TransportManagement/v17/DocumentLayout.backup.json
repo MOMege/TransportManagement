@@ -1,0 +1,831 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkProject\\TransportManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\entites\\vechile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\entites\\vechile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\entites\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\entites\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\entites\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\entites\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\entites\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\entites\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|d:\\workproject\\transportmanagement\\transportmanagement.domain\\entites\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4682440D-27E6-43CD-BC00-6B9924EACADD}|TransportManagement.Domain\\TransportManagement.Domain.csproj|solutionrelative:transportmanagement.domain\\entites\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\interfaces\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\interfaces\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\drivers\\queires\\getalldrivers\\getalldriverquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\pagination\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\pagination\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\pagination\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\pagination\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\pagination\\enum\\filterenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\pagination\\enum\\filterenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\export\\interfaces\\iexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\export\\interfaces\\iexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\export\\enums\\exportformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\export\\enums\\exportformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F696A84B-8FD4-4F85-9904-32CED820F6A5}|TransportManagement.Tests\\TransportManagement.Tests.csproj|d:\\workproject\\transportmanagement\\transportmanagement.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F696A84B-8FD4-4F85-9904-32CED820F6A5}|TransportManagement.Tests\\TransportManagement.Tests.csproj|solutionrelative:transportmanagement.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\interfaces\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\interfaces\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\interfaces\\authentication\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\interfaces\\authentication\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\auditlog\\gethistorybyrecordidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\auditlog\\gethistorybyrecordidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\configuration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\configuration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\comman\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\comman\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\logging\\serilogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\logging\\serilogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\seeddata\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\seeddata\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\transportmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\transportmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\persistence\\transportdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\persistence\\transportdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\dtos\\authentication\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\dtos\\authentication\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\dtos\\authentication\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\dtos\\authentication\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\dtos\\authentication\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\dtos\\authentication\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\transportmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\transportmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\persistence\\transportdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\persistence\\transportdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\dtos\\audiltlog\\auditlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\dtos\\audiltlog\\auditlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|d:\\workproject\\transportmanagement\\transportmanagement.application\\features\\auditlog\\gethistorybyrecordidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8283BED3-74A5-4253-9707-76D032D9C5E6}|TransportManagement.Application\\TransportManagement.Application.csproj|solutionrelative:transportmanagement.application\\features\\auditlog\\gethistorybyrecordidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|d:\\workproject\\transportmanagement\\transportmanagement.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2B630C-64BC-4D76-BF88-7DF01F57A1D1}|TransportManagement.Api\\TransportManagement.Api.csproj|solutionrelative:transportmanagement.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\migrations\\20251209003423_addauditlogstable3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\migrations\\20251209003423_addauditlogstable3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|d:\\workproject\\transportmanagement\\transportmanagement.infrastructure\\migrations\\20251209234549_addtokenandidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1BE964-5FD9-4E21-915A-AD6E85877F7D}|TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj|solutionrelative:transportmanagement.infrastructure\\migrations\\20251209234549_addtokenandidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Trip.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\Entites\\Trip.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Trip.cs*",
+              "RelativeToolTip": "TransportManagement.Domain\\Entites\\Trip.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:37:28.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\BaseEntity.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\BaseEntity.cs",
+              "RelativeToolTip": "TransportManagement.Domain\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:33:28.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Invoice.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\Entites\\Invoice.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Invoice.cs*",
+              "RelativeToolTip": "TransportManagement.Domain\\Entites\\Invoice.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:31:44.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllDriverQueryHandler.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQueryHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:44:49.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:16:47.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vechile.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Vechile.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\Entites\\Vechile.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Vechile.cs*",
+              "RelativeToolTip": "TransportManagement.Domain\\Entites\\Vechile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:44:02.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\Repository.cs*",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Repositories\\Repository.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:13:19.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISoftDelete.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\ISoftDelete.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\ISoftDelete.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\ISoftDelete.cs",
+              "RelativeToolTip": "TransportManagement.Domain\\ISoftDelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:27:14.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\Entites\\ApplicationUser.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\ApplicationUser.cs",
+              "RelativeToolTip": "TransportManagement.Domain\\Entites\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:22:26.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Interfaces\\IDriverRepository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IDriverRepository.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Interfaces\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:48:49.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DriverRepository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\DriverRepository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Repositories\\DriverRepository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\DriverRepository.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Repositories\\DriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:52:26.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:12:44.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Driver.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Domain\\Entites\\Driver.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Domain\\Entites\\Driver.cs*",
+              "RelativeToolTip": "TransportManagement.Domain\\Entites\\Driver.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:42:37.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Interfaces\\IVehicleRepository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\IVehicleRepository.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Interfaces\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:51:04.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:51:55.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllDriverQuery.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Drivers\\Queires\\GetAllDrivers\\GetAllDriverQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:36:41.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\PagedResult.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Pagination\\PagedResult.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\PagedResult.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Pagination\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:31:27.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaginationRequest.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\PaginationRequest.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Pagination\\PaginationRequest.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\PaginationRequest.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Pagination\\PaginationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:25:11.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FilterEnum.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\Enum\\FilterEnum.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Pagination\\Enum\\FilterEnum.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Pagination\\Enum\\FilterEnum.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Pagination\\Enum\\FilterEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:30:11.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExportFormat.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Export\\Enums\\ExportFormat.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Export\\Enums\\ExportFormat.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Export\\Enums\\ExportFormat.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Export\\Enums\\ExportFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:09:49.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IExportService.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Export\\Interfaces\\IExportService.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\Export\\Interfaces\\IExportService.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\Export\\Interfaces\\IExportService.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\Export\\Interfaces\\IExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:08:05.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "TransportManagement.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:34:06.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\Authentication\\ITokenService.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Interfaces\\Authentication\\ITokenService.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\Authentication\\ITokenService.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Interfaces\\Authentication\\ITokenService.cs",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:39:40.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Configuration\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Configuration\\ServiceRegistration.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Configuration\\ServiceRegistration.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Configuration\\ServiceRegistration.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:15:17.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Program.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Program.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T13:31:44.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Behaviors\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Comman\\Behaviors\\LoggingBehavior.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Comman\\Behaviors\\LoggingBehavior.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Comman\\Behaviors\\LoggingBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:48:47.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetHistoryByRecordIdQuery.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQuery.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQuery.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQuery.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:48:05.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\Authentication\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Interfaces\\Authentication\\ICurrentUserService.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Interfaces\\Authentication\\ICurrentUserService.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Interfaces\\Authentication\\ICurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:03:56.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAEYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:44:27.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SerilogConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Logging\\SerilogConfiguration.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Logging\\SerilogConfiguration.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Logging\\SerilogConfiguration.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Logging\\SerilogConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:43:45.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Services\\CurrentUserService.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Services\\CurrentUserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:06:19.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\SeedData\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\SeedData\\IdentitySeeder.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\SeedData\\IdentitySeeder.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\SeedData\\IdentitySeeder.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:49:41.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\DTOs\\Authentication\\LoginRequest.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\LoginRequest.cs",
+              "RelativeToolTip": "TransportManagement.Application\\DTOs\\Authentication\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T13:46:27.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TransportManagement.Api.csproj",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\TransportManagement.Api.csproj",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\TransportManagement.Api.csproj",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\TransportManagement.Api.csproj",
+              "RelativeToolTip": "TransportManagement.Api\\TransportManagement.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T23:35:48.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TransportDbContext.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Persistence\\TransportDbContext.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Persistence\\TransportDbContext.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Persistence\\TransportDbContext.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Persistence\\TransportDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T23:43:46.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\appsettings.json",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\appsettings.json",
+              "RelativeToolTip": "TransportManagement.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T13:30:13.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TransportManagement.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\TransportManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T23:43:10.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\DTOs\\Authentication\\AuthResponse.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\AuthResponse.cs",
+              "RelativeToolTip": "TransportManagement.Application\\DTOs\\Authentication\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T13:48:28.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABQwCEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T22:56:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\DTOs\\Authentication\\RegisterDto.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\Authentication\\RegisterDto.cs",
+              "RelativeToolTip": "TransportManagement.Application\\DTOs\\Authentication\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:02:39.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TransportDbContextFactory.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Persistence\\TransportDbContextFactory.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Persistence\\TransportDbContextFactory.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Persistence\\TransportDbContextFactory.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Persistence\\TransportDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T23:45:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Services\\TokenService.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwDgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T22:11:10.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251209234549_AddTokenANdIdentityTables.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Migrations\\20251209234549_AddTokenANdIdentityTables.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Migrations\\20251209234549_AddTokenANdIdentityTables.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Migrations\\20251209234549_AddTokenANdIdentityTables.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Migrations\\20251209234549_AddTokenANdIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T23:45:49.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetHistoryByRecordIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQueryHandler.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQueryHandler.cs",
+              "RelativeToolTip": "TransportManagement.Application\\Features\\AuditLog\\GetHistoryByRecordIdQueryHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:48:07.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuditLogDto.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\AudiltLog\\AuditLogDto.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Application\\DTOs\\AudiltLog\\AuditLogDto.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Application\\DTOs\\AudiltLog\\AuditLogDto.cs",
+              "RelativeToolTip": "TransportManagement.Application\\DTOs\\AudiltLog\\AuditLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:47:58.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Controllers\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Api\\Controllers\\AuditLogsController.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Api\\Controllers\\AuditLogsController.cs",
+              "RelativeToolTip": "TransportManagement.Api\\Controllers\\AuditLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:43:01.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251209003423_AddAuditLogsTable3.cs",
+              "DocumentMoniker": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Migrations\\20251209003423_AddAuditLogsTable3.cs",
+              "RelativeDocumentMoniker": "TransportManagement.Infrastructure\\Migrations\\20251209003423_AddAuditLogsTable3.cs",
+              "ToolTip": "D:\\WorkProject\\TransportManagement\\TransportManagement.Infrastructure\\Migrations\\20251209003423_AddAuditLogsTable3.cs",
+              "RelativeToolTip": "TransportManagement.Infrastructure\\Migrations\\20251209003423_AddAuditLogsTable3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:34:24.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

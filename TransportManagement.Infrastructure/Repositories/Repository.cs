@@ -6,11 +6,12 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using TransportManagement.Application.Interfaces;
+using TransportManagement.Domain;
 using TransportManagement.Infrastructure.Persistence;
 
 namespace TransportManagement.Infrastructure.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         protected readonly TransportDbContext? _dbcontext;
         protected readonly DbSet<T> _dbset;
@@ -26,9 +27,16 @@ namespace TransportManagement.Infrastructure.Repositories
        => await _dbset.AddAsync(entity);
 
         //delete from dataset
-        public void DeleteSync(T entity)
-       => _dbset.Remove(entity);
-        //Update from data set
+        public async  void DeleteSync(T entity)
+
+        {
+           
+            var entit = await _dbset.FindAsync(entity);
+            if (entit is null) return;
+
+            (entit as BaseEntity)?.SoftDelete();
+            _dbset.Update(entit);
+        }
         public void UpdateSync(T entity)
        => _dbset.Update(entity);
         //find entity by condition 
@@ -42,6 +50,11 @@ namespace TransportManagement.Infrastructure.Repositories
         public async Task<T?> GetByIdAsync(Guid id)
         => await _dbset.FindAsync(id);
 
-       
+        public virtual  IQueryable<T> Query() 
+        {
+            return _dbset
+        .Where(x => !x.IsDeleted)
+        .AsQueryable();
+        }
     }
 }

@@ -14,8 +14,8 @@ namespace TransportManagement.Application.DTOs.AudiltLog
         public string ActionType { get; set; } = default!;
         public string? UserName { get; set; }
         public DateTime ActionDate { get; set; }
-        public Dictionary<string, object>? OldValues { get; set; }
-        public Dictionary<string, object>? NewValues { get; set; }
+        public string? OldValues { get; set; }
+        public string? NewValues { get; set; }
     }
 
 }

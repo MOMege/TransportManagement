@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TransportManagement.Domain.Entites
 {
-    public class Invoice :BaseEntity ,IAggregateRoot
+    public class Invoice :BaseEntity ,IAggregateRoot 
     {
         public string InvoiceNumber { get; private set; } = default!;
         public Guid TripId { get; private set; }

@@ -6,6 +6,7 @@ using TransportManagement.Application.Interfaces;
 using TransportManagement.Domain.Entites;
 using TransportManagement.Infrastructure.Persistence;
 using TransportManagement.Infrastructure.Repositories;
+using System.Text.Json;
 
 public class UnitOfWork : IUnitOfWork
 {
@@ -67,21 +68,34 @@ public class UnitOfWork : IUnitOfWork
 
             if (entry.State == EntityState.Added)
             {
-                audit.NewValues = entry.CurrentValues.Properties
-                    .ToDictionary(p => p.Name, p => entry.CurrentValues[p.Name])!;
+                audit.NewValues = System.Text.Json.JsonSerializer.Serialize(
+                    entry.CurrentValues.Properties
+                        .ToDictionary(p => p.Name,
+                                      p => entry.CurrentValues[p.Name])
+                );
             }
             else if (entry.State == EntityState.Modified)
             {
-                audit.OldValues = entry.OriginalValues.Properties
-                    .ToDictionary(p => p.Name, p => entry.OriginalValues[p.Name])!;
+                audit.OldValues = System.Text.Json.JsonSerializer.Serialize(
+                    entry.OriginalValues.Properties
+                        .ToDictionary(p => p.Name,
+                                      p => entry.OriginalValues[p.Name])
+                );
 
-                audit.NewValues = entry.CurrentValues.Properties
-                    .ToDictionary(p => p.Name, p => entry.CurrentValues[p.Name])!;
+                audit.NewValues = System.Text.Json.JsonSerializer.Serialize(
+                    entry.CurrentValues.Properties
+                        .ToDictionary(p => p.Name,
+                                      p => entry.CurrentValues[p.Name])
+                );
             }
             else if (entry.State == EntityState.Deleted)
             {
-                audit.OldValues = entry.OriginalValues.Properties
-                    .ToDictionary(p => p.Name, p => entry.OriginalValues[p.Name])!;
+                audit.OldValues = System.Text.Json.JsonSerializer.Serialize(
+                    entry.OriginalValues.Properties
+                        .ToDictionary(p => p.Name,
+                                      p => entry.OriginalValues[p.Name]
+                                     )
+                );
             }
 
 
